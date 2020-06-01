@@ -1242,7 +1242,7 @@ ul#additional_links li:after {
 }
 .hero_single.version_1 {
   height: 620px;
-  background: url(../img/medical.jpg) top center no-repeat fixed;
+  background: url(../img/hero2.jpg) top center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1250,7 +1250,7 @@ ul#additional_links li:after {
 }
 @media (max-width: 767px) {
   .hero_single.version_1 {
-    background: url(../img/hero.jpg) -300px top no-repeat fixed;
+    background: url(../img/hero2.jpg) -300px top no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

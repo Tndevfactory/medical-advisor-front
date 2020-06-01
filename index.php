@@ -36,9 +36,10 @@
 	<header class="header menu_fixed">
 		<div id="logo">
 			<a href="index.html">
-				<!-- <img src="img/logo.svg" width="140" height="35" alt="" class="logo_normal">
-				<img src="img/logo_sticky.svg" width="140" height="35" alt="" class="logo_sticky"> -->
-				<h3><span>Medical Advisor</span></h3>
+			
+				<img src="img/medadv.png" width="140" height="35" alt="" class="logo_normal">
+				<img src="img/medadv.png" width="140" height="35" alt="" class="logo_sticky">
+				<!-- <h3><span>Medical Advisor</span></h3> -->
 			</a>
 		</div>
 		<ul id="top_menu">
