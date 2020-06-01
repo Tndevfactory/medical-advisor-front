@@ -231,7 +231,90 @@
 		}
 	});
 	
-	$('#reccomended').owlCarousel({
+	$('#clinicsOk').owlCarousel({
+		center: true,
+		items: 2,
+		loop: true,
+		margin: 0,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			767: {
+				items: 2
+			},
+			1000: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			}
+		}
+	});	
+	
+	$('#clinicsNok').owlCarousel({
+		center: true,
+		items: 2,
+		loop: true,
+		margin: 0,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			767: {
+				items: 2
+			},
+			1000: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			}
+		}
+	});
+
+	// toggle display clininc 
+	$('#btnClinicNok').click(function(e){
+		e.preventDefault();
+		$('#clinicsOk').hide();
+		$('#clinicsNok').show();
+	});
+	$('#btnClinicOk').click(function(e){
+		e.preventDefault();
+		$('#clinicsNok').hide();
+		$('#clinicsOk').show();
+	});
+	
+	$('#doctors').owlCarousel({
+		center: true,
+		items: 2,
+		loop: true,
+		margin: 0,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			767: {
+				items: 2
+			},
+			1000: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			}
+		}
+	});	
+	$('#agences').owlCarousel({
 		center: true,
 		items: 2,
 		loop: true,
