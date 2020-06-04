@@ -693,10 +693,10 @@ main {
 
 /* Footer */
 footer {
-	padding: 60px 0 35px 0;
+	padding: 60px 0  0;
 	border-top:1px solid $border-color-2;
 	background-color: #fff;
-	@include mobile {padding: 45px 0 35px 0;}
+	@include mobile {padding: 45px 0  0;}
 	h3 {
 		margin: 0 0 15px 0;
 		@include fontSize(18px);
@@ -1677,18 +1677,22 @@ a.box_cat_home {
 
 /*-------- 2.2 Listing --------*/
 #results {
+
 	padding: 20px 0;
 	color: #fff;
 	background: $color-2;
 	position: relative;
 	z-index: 999!important;
+
 	@include mobile {
 		padding: 12px 0;
 	}
+
 	&.is_stuck {
 		z-index: 99;
 		padding: 10px 0;
 	}
+
 	h1 {
 		color: #fff;
 		margin: 12px 0 0 0;
@@ -4432,5 +4436,5 @@ a#forgot{
 	// changed 
 	background: url(../img/cta1.jpg) top center no-repeat fixed;
 	@include background-size(cover);
-	@include mobile {background: url(../img/hero2.jpg) -300px top no-repeat fixed;@include background-size(cover);} 
+	@include mobile {background: url(../img/cta1.jpg) -300px top no-repeat fixed;@include background-size(cover);} 
 }

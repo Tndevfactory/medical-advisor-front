@@ -849,13 +849,13 @@ main {
 
 /* Footer */
 footer {
-  padding: 60px 0 35px 0;
+  padding: 60px 0 0;
   border-top: 1px solid #ededed;
   background-color: #fff;
 }
 @media (max-width: 767px) {
   footer {
-    padding: 45px 0 35px 0;
+    padding: 45px 0 0;
   }
 }
 footer h3 {
@@ -5528,7 +5528,7 @@ a#forgot:hover {
 }
 @media (max-width: 767px) {
   .bg_doc {
-    background: url(../img/hero2.jpg) -300px top no-repeat fixed;
+    background: url(../img/cta1.jpg) -300px top no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

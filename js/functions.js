@@ -12,10 +12,10 @@
 	});
 	
 	// Sticky sidebar
-	$('#sidebar').theiaStickySidebar({
-		minWidth: 991,
-		additionalMarginTop: 100
-	});
+	// $('#sidebar').theiaStickySidebar({
+	// 	minWidth: 991,
+	// 	additionalMarginTop: 100
+	// });
 	
 	// Mobile Mmenu
 	var $menu = $("nav#menu").mmenu({
@@ -468,9 +468,9 @@
 	});	
 	
 	// Sticky horizontal results list page or detail page
-	$("#results,.sticky_horizontal_2").stick_in_parent({
-		offset_top: 0
-	});
+	// $("#results,.sticky_horizontal_2").stick_in_parent({
+	// 	offset_top: 0
+	// });
 	            
 	// Secondary nav scroll
 	var $sticky_nav= $('.secondary_nav');
