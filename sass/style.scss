@@ -885,7 +885,7 @@ ul#footer-selector{
 ul#additional_links {
     margin: 0;
 	padding: 8px 0 0 0;
-    color: #555;
+    color: $body-text-color;
     @include fontSize(13px);
 	float: right;
 	@include tablet {float: none; margin-top: 10px;}
@@ -921,11 +921,11 @@ ul#additional_links {
 	padding-right: 35px;
 	position: relative;
 	&#lang-selector {
-		color: #555;
+		color: rgb(255, 255, 255);
 		&:after {
 			font-family: 'ElegantIcons';
 			content: "\e0e2";
-			color: #555;
+			color: rgb(255, 255, 255);
 			position: absolute;
 			right: 10px;
 			top:0;
@@ -949,7 +949,7 @@ ul#additional_links {
 		border-radius: 0;
 		box-shadow: none;
 		height: 30px;
-		color: #555;
+		color: rgb(255, 254, 254);
 		@include fontSize(12px);
 		margin: 0;
 		font-weight: 500;
@@ -1015,11 +1015,11 @@ ul#additional_links {
 	&.version_1 {
 		height: 620px;
 		// changed 
-		background: url(../img/hero2.jpg) top center no-repeat fixed;
+		background: url(../img/hero_.jpg) top center no-repeat fixed;
 		@include background-size(cover);
-		@include mobile {background: url(../img/hero2.jpg) -300px top no-repeat fixed;@include background-size(cover);} 
+		@include mobile {background: url(../img/hero_.jpg) -300px top no-repeat fixed;@include background-size(cover);} 
 		.wrapper {
-			@include rgba(bg, #000, 0.6);
+			@include rgba(bg, #000, 0.1);
 			h3 {
 				@include fontSize(52px);
 				text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
@@ -1572,7 +1572,7 @@ a.box_cat_home {
 }
 
 /*Carousel home page*/
-#reccomended {
+#clinicsOk, #clinicsNok, #doctorsOk, #doctorsNok, #agencesOk, #agencesNok {
 	margin-top: 40px;
 	@include mobile {margin-top: 0;}
 	.item {
@@ -1582,7 +1582,7 @@ a.box_cat_home {
 		}
 	}
 }
-#reccomended .owl-item {
+#clinicsOk .owl-item , #clinicsNok .owl-item, #doctorsOk .owl-item,#doctorsNok .owl-item, #agencesOk .owl-item, #agencesNok .owl-item{
 	opacity: 0.5;
 	transform: scale(0.85);
 	@include backface-visibility (hidden);
@@ -1591,15 +1591,21 @@ a.box_cat_home {
 	overflow: hidden;
 }
 
-#reccomended .owl-item.active.center {
+#clinicsOk .owl-item.active.center , #clinicsNok .owl-item.active.center ,#doctorsOk .owl-item.active.center,#doctorsNok .owl-item.active.center, #agencesOk .owl-item.active.center, #agencesNok .owl-item.active.center{
 	opacity: 1;
 	@include backface-visibility (hidden);
 	-webkit-transform: translateZ(0) scale(1, 1);
 	transform: scale(1);
 }
 
-#reccomended .owl-item.active.center .item .title h4,
-#reccomended .owl-item.active.center .item .views {
+#clinicsOk .owl-item.active.center .item .title h4,
+#clinicsOk .owl-item.active.center .item .views,
+#doctorsOk .owl-item.active.center .item .title h4,
+#doctorsNok .owl-item.active.center .item .views,
+#agencesOk  .owl-item.active.center .item .title h4,
+#agencesNok .owl-item.active.center .item .views
+
+ {
 	opacity: 1;
 }
 
@@ -1652,10 +1658,10 @@ a.box_cat_home {
 .call_section_3 {
     .wrapper {
         padding: 75px 0 50px 0;
-		@include rgba(bg, #000, 0.6);
+		@include rgba(bg, #000, 0.1);
 		@include mobile {@include rgba(bg, #000, 0); padding: 60px 0 35px 0;}
 	}
-	background: $color-2 url(./../img/hero.jpg) center center no-repeat fixed;
+	background: $color-2 url(./../img/cta2.jpg) center center no-repeat fixed;
 	@include background-size(cover);
 	@include mobile {background: $color-2;}
 	h3 {
@@ -4407,4 +4413,24 @@ a#forgot{
 }
 .mfp-bg {
     opacity: 0.8!important;
+}
+
+/* couleur standard #193275*/ 
+.btn-primary{
+	background-color: #193275 !important;
+	border:none;
+	font-size:14px;
+	&:hover{
+		background-color: #ffffff !important;
+		color: #000000 !important;
+	}
+
+}
+
+.bg_doc{
+	height: 520px;
+	// changed 
+	background: url(../img/cta1.jpg) top center no-repeat fixed;
+	@include background-size(cover);
+	@include mobile {background: url(../img/hero2.jpg) -300px top no-repeat fixed;@include background-size(cover);} 
 }

@@ -60,7 +60,7 @@
 			<ul>
 				<li><span><a href="#0">Accueil</a></span>
 					
-				<li><span><a href="#0">Docteurs</a></span>
+				<li><span><a href="fiche-docteur.html">Docteurs</a></span>
 					<ul>
 						<li>
 							<span><a href="#0">Layouts</a></span>
@@ -70,7 +70,7 @@
 								<li><a href="row-listings-filterscol.html">Row listings</a></li>
 							</ul>
 						</li>
-						<li><a href="reviews-page.html">Reviews page</a></li>
+						<li><a href="reviews-page.html">Reviews pages</a></li>
 						<li><a href="write-review.html">Write a review</a></li>
 						<li><a href="confirm.html">Confirm page</a></li>
 						<li><a href="user-dashboard.html">User Dashboard</a></li>
@@ -158,14 +158,23 @@
 			<div class="main_title_3">
 				
 				<h4>Les cliniques</h4>
-				<a href="reviews-page.html">View all</a>
+				<div class="clearfix">
+				
+					<button id="btnClinicOk" class="btn btn-outline-success float-left">
+					<i class="icon-thumbs-up"></i>Top 5 Cliniques</button>
+				
+					<button id="btnClinicNok" class="btn btn-outline-danger float-right">
+					<i class=" icon-thumbs-down"></i>Flop 5 Cliniques</button>
+				</div>
+
+				
 			</div>
 			
 			<div id="clinicsOk" class="owl-carousel owl-theme">
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar1.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -182,7 +191,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar2.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -199,7 +208,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar3.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -216,7 +225,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar4.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -233,7 +242,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar5.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -253,113 +262,7 @@
 					<div class="review_listing">
 						<div class="clearfix">
 							<figure><img src="img/avatar1.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
-							<small>Shops</small>
-						</div>
-						<h3><strong>Jhon Doe</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
-						<h4>"Avesome Experience"</h4>
-						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-						<ul class="clearfix">
-							<li><small>Published: 26.08.2018</small></li>
-							<li><a href="reviews-page.html" class="btn_1 small">Lire avis nok</a></li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="item">
-					<div class="review_listing">
-						<div class="clearfix">
-							<figure><img src="img/avatar2.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
-							<small>Shops</small>
-						</div>
-						<h3><strong>Marika</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
-						<h4>"Great products"</h4>
-						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-						<ul class="clearfix">
-							<li><small>Published: 26.08.2018</small></li>
-							<li><a href="reviews-page.html" class="btn_1 small">Lire avis nok</a></li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="item">
-					<div class="review_listing">
-						<div class="clearfix">
-							<figure><img src="img/avatar3.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
-							<small>Shops</small>
-						</div>
-						<h3><strong>Lukas Lee</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
-						<h4>"Excellent Support"</h4>
-						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-						<ul class="clearfix">
-							<li><small>Published: 26.08.2018</small></li>
-							<li><a href="reviews-page.html" class="btn_1 small">Lire avis nok</a></li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="item">
-					<div class="review_listing">
-						<div class="clearfix">
-							<figure><img src="img/avatar4.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
-							<small>Shops</small>
-						</div>
-						<h3><strong>Margaret</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
-						<h4>"Perfect"</h4>
-						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-						<ul class="clearfix">
-							<li><small>Published: 26.08.2018</small></li>
-							<li><a href="reviews-page.html" class="btn_1 small">Lire avis nok</a></li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="item">
-					<div class="review_listing">
-						<div class="clearfix">
-							<figure><img src="img/avatar5.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
-							<small>Shops</small>
-						</div>
-						<h3><strong>Mark Twain</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
-						<h4>"Shipping Very Fast"</h4>
-						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-						<ul class="clearfix">
-							<li><small>Published: 26.08.2018</small></li>
-							<li><a href="#0" class="btn_1 small">Lire avis nok</a></li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-			<!-- /carousel -->
-			<div class="clearfix">
-				
-					<button id="btnClinicOk" class="btn btn-outline-success float-left">
-					<i class="icon-thumbs-up"></i>Top 5 Cliniques</button>
-				
-					<button id="btnClinicNok" class="btn btn-outline-danger float-right">
-					<i class=" icon-thumbs-down"></i>Flop 5 Cliniques</button>
-			</div>
-
-		</div>
-
-
-		<div class="container ">
-			<div class="main_title_3">
-				<!-- <h2>5 Derniers avis</h2> -->
-				<h4>Les docteurs</h4>
-				<a href="reviews-page.html">View all</a>
-			</div>
-			<div id="doctors" class="owl-carousel owl-theme">
-				<div class="item">
-					<div class="review_listing">
-						<div class="clearfix">
-							<figure><img src="img/avatar1.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
 							<small>Shops</small>
 						</div>
 						<h3><strong>Jhon Doe</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
@@ -371,11 +274,12 @@
 						</ul>
 					</div>
 				</div>
+				
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
 							<figure><img src="img/avatar2.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
 							<small>Shops</small>
 						</div>
 						<h3><strong>Marika</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
@@ -392,7 +296,7 @@
 					<div class="review_listing">
 						<div class="clearfix">
 							<figure><img src="img/avatar3.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
 							<small>Shops</small>
 						</div>
 						<h3><strong>Lukas Lee</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
@@ -409,7 +313,7 @@
 					<div class="review_listing">
 						<div class="clearfix">
 							<figure><img src="img/avatar4.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
 							<small>Shops</small>
 						</div>
 						<h3><strong>Margaret</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
@@ -426,7 +330,7 @@
 					<div class="review_listing">
 						<div class="clearfix">
 							<figure><img src="img/avatar5.jpg" alt=""></figure>
-							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
 							<small>Shops</small>
 						</div>
 						<h3><strong>Mark Twain</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
@@ -441,28 +345,233 @@
 
 			</div>
 			<!-- /carousel -->
-			<div class="clearfix">
-				<button class="btn btn-outline-success float-left">
-					<i class="icon-thumbs-up"></i>Top 5 Cliniques</button>
-				<button class="btn btn-outline-danger float-right">
-					<i class=" icon-thumbs-down"></i>Flop 5 Cliniques</button>
+			<div class="main_title_3">
+				<!-- <h2>5 Derniers avis</h2> -->
+				<a href="reviews-page.html">View all</a>
 			</div>
-
+			
+			
 		</div>
+		<div class="py-4 bg_doc">
+			<div class="container ">
+				<div class="main_title_3">
+					<!-- <h2>5 Derniers avis</h2> -->
+					<h4 style="color:#193275">Les docteurs</h4>
+					
+				</div>
+	
+				<div class="clearfix">
+					<button id="btndoctorsOk" class="btn btn-outline-success float-left">
+						<i class="icon-thumbs-up"></i>Top 5 Docteurs</button>
+					<button id="btndoctorsNok" class="btn btn-outline-danger float-right">
+						<i class=" icon-thumbs-down"></i>Flop 5 Docteurs</button>
+				</div>
+	
+				<div id="doctorsOk" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Jhon Doe</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Avesome Experience"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Marika</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Great products"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Lukas Lee</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Excellent Support"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Margaret</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Perfect"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Mark Twain</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Shipping Very Fast"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="#0" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+	
+				</div>
+				
+	
+				<div id="doctorsNok" style="display:none" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Jhon Doe</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Avesome Experience"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Marika</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Great products"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Lukas Lee</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Excellent Support"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Margaret</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Perfect"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="review_listing">
+							<div class="clearfix">
+								<figure><img src="img/info.jpg" alt=""></figure>
+								<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+								<small>Shops</small>
+							</div>
+							<h3><strong>Mark Twain</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+							<h4>"Shipping Very Fast"</h4>
+							<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+							<ul class="clearfix">
+								<li><small>Published: 26.08.2018</small></li>
+								<li><a href="#0" class="btn_1 small">Lire avis</a></li>
+							</ul>
+						</div>
+					</div>
+	
+				</div>
+				<!-- /carousel -->
+				
+	
+				<div class="main_title_3">
+					<!-- <h2>5 Derniers avis</h2> -->
+					<a href="reviews-page.html">View all</a>
+				</div>
+	
+			</div>	
+		</div>
+		
 
 		<div class="container margin_60">
 			
 			<div class="main_title_3">
 				
 				<h4>Les agences</h4>
-				<a href="reviews-page.html">View all</a>
+			
+			</div>
+			<div class="clearfix">
+				<button id="btnagencesOk" class="btn btn-outline-success float-left">
+					<i class="icon-thumbs-up"></i>Top 5 Agences</button>
+				<button id="btnagencesNok" class="btn btn-outline-danger float-right">
+					<i class=" icon-thumbs-down"></i>Flop 5 Agences</button>
 			</div>
 			
-			<div id="agences" class="owl-carousel owl-theme">
+			<div id="agencesOk" class="owl-carousel owl-theme">
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar1.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -479,7 +588,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar2.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -496,7 +605,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar3.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -513,7 +622,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar4.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -530,7 +639,7 @@
 				<div class="item">
 					<div class="review_listing">
 						<div class="clearfix">
-							<figure><img src="img/avatar5.jpg" alt=""></figure>
+							<figure><img src="img/info.jpg" alt=""></figure>
 							<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
 							<small>Shops</small>
 						</div>
@@ -545,12 +654,99 @@
 				</div>
 
 			</div>
+
+			<div id="agencesNok" style="display:none" class="owl-carousel owl-theme">
+				<div class="item">
+					<div class="review_listing">
+						<div class="clearfix">
+							<figure><img src="img/info.jpg" alt=""></figure>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+							<small>Shops</small>
+						</div>
+						<h3><strong>Jhon Doe</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+						<h4>"Avesome Experience"</h4>
+						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+						<ul class="clearfix">
+							<li><small>Published: 26.08.2018</small></li>
+							<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="review_listing">
+						<div class="clearfix">
+							<figure><img src="img/info.jpg" alt=""></figure>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+							<small>Shops</small>
+						</div>
+						<h3><strong>Marika</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+						<h4>"Great products"</h4>
+						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+						<ul class="clearfix">
+							<li><small>Published: 26.08.2018</small></li>
+							<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="review_listing">
+						<div class="clearfix">
+							<figure><img src="img/info.jpg" alt=""></figure>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty "></i><em>0/5.00</em></span>
+							<small>Shops</small>
+						</div>
+						<h3><strong>Lukas Lee</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+						<h4>"Excellent Support"</h4>
+						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+						<ul class="clearfix">
+							<li><small>Published: 26.08.2018</small></li>
+							<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="review_listing">
+						<div class="clearfix">
+							<figure><img src="img/info.jpg" alt=""></figure>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+							<small>Shops</small>
+						</div>
+						<h3><strong>Margaret</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+						<h4>"Perfect"</h4>
+						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+						<ul class="clearfix">
+							<li><small>Published: 26.08.2018</small></li>
+							<li><a href="reviews-page.html" class="btn_1 small">Lire avis</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="review_listing">
+						<div class="clearfix">
+							<figure><img src="img/info.jpg" alt=""></figure>
+							<span class="rating"><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><i class="icon_star empty"></i><em>0/5.00</em></span>
+							<small>Shops</small>
+						</div>
+						<h3><strong>Mark Twain</strong> reviewed <a href="reviews-page.html">Fnac</a></h3>
+						<h4>"Shipping Very Fast"</h4>
+						<p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
+						<ul class="clearfix">
+							<li><small>Published: 26.08.2018</small></li>
+							<li><a href="#0" class="btn_1 small">Lire avis</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
 			<!-- /carousel -->
-			<div class="clearfix">
-				<button class="btn btn-outline-success float-left">
-					<i class="icon-thumbs-up"></i>Top 5 Agences</button>
-				<button class="btn btn-outline-danger float-right">
-					<i class=" icon-thumbs-down"></i>Flop 5 Agences</button>
+			<div class="main_title_3">
+				
+			
+				<a href="reviews-page.html">View all</a>
 			</div>
 
 		</div>
@@ -564,19 +760,19 @@
 				<div class="container clearfix">
 					<div class="row text-center">
 						<div class="col-lg-4 col-md-12 ">
-							<p>Sur votre séjour dans une clinique</p>
 							<i style="font-size:55px;color:white" class="icon-smile"></i><br><br>
-							<p><a class="btn btn-primary" href="pricing.html" data-wow-delay="0.5s">Donner un avis</a></p>
+							<p>Sur votre séjour dans une clinique</p>
+							<p><a class="btn btn-outline-light" href="pricing.html" data-wow-delay="0.5s">Donner un avis</a></p>
 						</div>
 						<div class="col-lg-4 col-md-12 ">
-							<p>Sur votre séjour dans une agence</p>
 							<i style="font-size:55px;color:white" class="icon-home-1"></i><br><br>
-							<p><a class="btn btn-primary" href="pricing.html" data-wow-delay="0.5s">Donner un avis</a></p>
+							<p>Sur votre séjour dans une agence</p>
+							<p><a class="btn btn-outline-light" href="pricing.html" data-wow-delay="0.5s">Donner un avis</a></p>
 						</div>
 						<div class="col-lg-4 col-md-12 ">
-							<p>Sur votre parcours de soins</p>
 							<i style="font-size:55px;color:white" class=" icon-doc-text-2"></i><br><br>
-							<p><a class="btn btn-primary" href="pricing.html" data-wow-delay="0.5s">Donner un avis</a></p>
+							<p>Sur votre parcours de soins</p>
+							<p><a class="btn btn-outline-light" href="pricing.html" data-wow-delay="0.5s">Donner un avis</a></p>
 						</div>
 					</div>	
 				</div>
@@ -620,7 +816,7 @@
 					</a>
 					<div class="collapse show" id="collapse_ft_2">
 						<ul class="links">
-							<li><a href="#0">Docteurs</a></li>
+							<li><a href="fiche-docteur.html">Docteurs</a></li>
 							<li><a href="#0">Cliniques</a></li>
 							<li><a href="#0">Agences</a></li>
 							<li><a href="#0">Laboratoires</a></li>
@@ -677,29 +873,36 @@
 			</div>
 			<!-- /row-->
 			<hr>
-			<div class="row">
-				<div class="col-lg-6">
-					<ul id="footer-selector">
-						<li>
-							<div class="styled-select" id="lang-selector">
-								<select>
-									<option value="English" selected>Français</option>
-									<option value="Russian">Anglais</option>
-									<option value="Spanish">Arabe</option>
-								</select>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="col-lg-6">
-					<ul id="additional_links">
-						<li><a href="#0">Terms and conditions</a></li>
-						<li><a href="#0">Privacy</a></li>
-						<li><span>© 2020 Medical Advisor</span></li>
-					</ul>
-				</div>
-			</div>
 		</div>
+				<div style="padding:60px 0px; background-color: #193275;color:white;" >
+					<div class="container">
+						<div class="row">
+							
+							<div class="col-lg-6 ">
+								<ul id="footer-selector" class="text-light">
+									<li>
+										<div class="styled-select" id="lang-selector">
+											<select>
+												<option value="English" selected>Français</option>
+												<option value="Russian">Anglais</option>
+												<option value="Spanish">Arabe</option>
+											</select>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul id="additional_links">
+									<li><a href="#0">Terms and conditions</a></li>
+									<li><a href="#0">Privacy</a></li>
+									<li><span>© 2020 Medical Advisor</span></li>
+								</ul>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
 	</footer>
 	<!--/footer-->
 	</div>

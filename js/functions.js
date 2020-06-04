@@ -282,16 +282,21 @@
 	// toggle display clininc 
 	$('#btnClinicNok').click(function(e){
 		e.preventDefault();
-		$('#clinicsOk').hide();
-		$('#clinicsNok').show();
+		e.stopImmediatePropagation();
+		e.stopPropagation();
+		$('#clinicsOk').fadeOut('slow');
+		$('#clinicsNok').fadeIn('slow');
 	});
+
 	$('#btnClinicOk').click(function(e){
 		e.preventDefault();
-		$('#clinicsNok').hide();
-		$('#clinicsOk').show();
+		e.stopImmediatePropagation();
+		e.stopPropagation();
+		$('#clinicsNok').fadeOut('slow');
+		$('#clinicsOk').fadeIn('slow');
 	});
 	
-	$('#doctors').owlCarousel({
+	$('#doctorsOk').owlCarousel({
 		center: true,
 		items: 2,
 		loop: true,
@@ -314,7 +319,50 @@
 			}
 		}
 	});	
-	$('#agences').owlCarousel({
+	
+	$('#doctorsNok').owlCarousel({
+		center: true,
+		items: 2,
+		loop: true,
+		margin: 0,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			767: {
+				items: 2
+			},
+			1000: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			}
+		}
+	});	
+
+	// toggle display docteurs 
+	$('#btndoctorsOk').click(function(e){
+		e.preventDefault();
+		e.stopImmediatePropagation();
+		e.stopPropagation();
+		$('#doctorsNok').fadeOut('slow');
+		$('#doctorsOk').fadeIn('slow');
+	});
+
+	$('#btndoctorsNok').click(function(e){
+		e.preventDefault();
+		e.stopImmediatePropagation();
+		e.stopPropagation();
+		$('#doctorsOk').fadeOut('slow');
+		$('#doctorsNok').fadeIn('slow');
+	});
+
+
+	$('#agencesOk').owlCarousel({
 		center: true,
 		items: 2,
 		loop: true,
@@ -338,6 +386,49 @@
 		}
 	});
 	
+	$('#agencesNok').owlCarousel({
+		center: true,
+		items: 2,
+		loop: true,
+		margin: 0,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			767: {
+				items: 2
+			},
+			1000: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			}
+		}
+	});
+	
+	// toggle display agences 
+	$('#btnagencesOk').click(function(e){
+		e.preventDefault();
+		e.stopImmediatePropagation();
+		e.stopPropagation();
+		$('#agencesNok').fadeOut('slow');
+		$('#agencesOk').fadeIn('slow');
+	});
+
+	$('#btnagencesNok').click(function(e){
+		e.preventDefault();
+		e.stopImmediatePropagation();
+		e.stopPropagation();
+		$('#agencesOk').fadeOut('slow');
+		$('#agencesNok').fadeIn('slow');
+	});
+
+
+
 	$('#brands').owlCarousel({
 		autoplay:true,
 		items: 2,
