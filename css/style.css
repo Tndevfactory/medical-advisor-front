@@ -5536,4 +5536,10 @@ a#forgot:hover {
   }
 }
 
+.badge {
+  background-color: #fff !important;
+  border: 1px solid #193275 !important;
+  color: #193275 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
